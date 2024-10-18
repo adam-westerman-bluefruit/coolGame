@@ -21,7 +21,7 @@ public class Wiggler : Component, IUpdatable
         abs = isAbsolute;
     }
 
-    public override void Awake()
+    public override void Created()
     {
         offset = Rand.Value() * (MathF.PI * 2);
     }

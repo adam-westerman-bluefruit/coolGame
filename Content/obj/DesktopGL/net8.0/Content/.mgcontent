@@ -5,8 +5,14 @@
   <Config />
   <SourceFiles>
     <File>c:/repos/CoolGame/Content/cappy.png</File>
+    <File>c:/repos/CoolGame/Content/rock.png</File>
+    <File>c:/repos/CoolGame/Content/shadow.png</File>
+    <File>c:/repos/CoolGame/Content/yellowman.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
   </DestFiles>
 </SourceFileCollection>

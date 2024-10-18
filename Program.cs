@@ -1,2 +1,2 @@
-﻿using var game = new CoolGame.Game1();
+﻿using var game = new CoolGame.GameLoop();
 game.Run();

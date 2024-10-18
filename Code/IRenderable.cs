@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
@@ -20,5 +21,5 @@ public struct RenderData
 
 public interface IRenderable
 {
-    public RenderData GetRenderData();
+    public void DrawToBuffer(List<RenderData> buffer);
 }

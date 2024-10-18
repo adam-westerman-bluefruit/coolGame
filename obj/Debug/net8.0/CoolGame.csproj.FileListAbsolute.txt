@@ -25,3 +25,7 @@ c:\repos\CoolGame\obj\Debug\net8.0\CoolGame.pdb
 c:\repos\CoolGame\obj\Debug\net8.0\CoolGame.genruntimeconfig.cache
 c:\repos\CoolGame\obj\Debug\net8.0\ref\CoolGame.dll
 c:\repos\CoolGame\bin\Debug\net8.0\TweenSharp.dll
+c:\repos\CoolGame\obj\Debug\net8.0\CoolGame.sourcelink.json
+c:\repos\CoolGame\bin\Debug\net8.0\Content\rock.xnb
+c:\repos\CoolGame\bin\Debug\net8.0\Content\yellowman.xnb
+c:\repos\CoolGame\bin\Debug\net8.0\Content\shadow.xnb

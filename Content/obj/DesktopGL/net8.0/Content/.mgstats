@@ -1,2 +1,5 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
 "c:/repos/CoolGame/Content/cappy.png","c:/repos/CoolGame/Content/bin/DesktopGL/Content/cappy.xnb","TextureProcessor","Texture2DContent",265,2389,0.0660855
+"c:/repos/CoolGame/Content/rock.png","c:/repos/CoolGame/Content/bin/DesktopGL/Content/rock.xnb","TextureProcessor","Texture2DContent",798,16469,0.0763554
+"c:/repos/CoolGame/Content/shadow.png","c:/repos/CoolGame/Content/bin/DesktopGL/Content/shadow.xnb","TextureProcessor","Texture2DContent",291,4181,0.0628812
+"c:/repos/CoolGame/Content/yellowman.png","c:/repos/CoolGame/Content/bin/DesktopGL/Content/yellowman.xnb","TextureProcessor","Texture2DContent",748,16469,0.0034799

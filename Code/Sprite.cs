@@ -1,6 +1,7 @@
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework;
 using System;
+using System.Collections.Generic;
 
 public class Sprite : Component, IRenderable 
 {
@@ -16,8 +17,10 @@ public class Sprite : Component, IRenderable
         this.dimensions = new Vector2(texture.Width, texture.Height);
     }
 
-    public RenderData GetRenderData()
+    public void DrawToBuffer(List<RenderData> buffer)
     {
-        return new RenderData(Texture, new Rectangle(0, 0, (int)dimensions.X, (int)dimensions.Y), Tint, flipped, 0);
+        Vector2 position = gameObject.transform.Position;
+        Vector2 scale = gameObject.transform.Scale;
+        buffer.Add(new RenderData(Texture, new Rectangle((int)position.X, (int)position.Y, (int)(dimensions.X * scale.X), (int)(dimensions.Y * scale.Y)), Tint, flipped, 0));
     }
 }
